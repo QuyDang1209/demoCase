@@ -9,5 +9,8 @@ public class ShoppingApp {
 
         UserView userView = new UserView();
         userView.launcher();
+
+        long currentId = System.currentTimeMillis() % 100000;
+
     }
 }
